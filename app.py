@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-data = dic()
+data = dict()
 reviews = ['Good product', 'Bad product', 'I like it']
 positive = 2
 negative = 1
